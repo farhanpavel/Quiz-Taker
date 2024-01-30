@@ -37,11 +37,22 @@ const Home = () => {
         
         </div>
         <div className='mt-4 space-x-4 lg:space-x-2'>
-        <button className="border-1 bg-gradient-to-r rounded-full from-blue-500 to-blue-300 text-white lg:px-4 lg:py-1 py-1 px-2 "><a href="#" className="text-white p-1 ">Sign In</a>
+        <button
+  className="border-2 bg-gradient-to-r rounded-full from-blue-500 to-blue-300 text-white lg:px-4 lg:py-2 py-1 px-3 focus:outline-none transform transition-transform hover:scale-105"
+>
+  <a href="#" className="text-white p-2 font-semibold">
+    Sign In
+  </a>
 </button>
 
-    <button className="border-1 bg-gradient-to-r from-blue-500 to-blue-300 text-white lg:px-4 lg:py-1 py-1 px-2  rounded-full"><a href="#" className="text-white p-1">Sign Up</a>
-    </button>
+<button
+  className="border-2 bg-gradient-to-r from-blue-500 to-blue-300 text-white lg:px-4 lg:py-2 py-1 px-3 rounded-full focus:outline-none transform transition-transform hover:scale-105"
+>
+  <a href="#" className="text-white p-2 font-semibold">
+    Sign Up
+  </a>
+</button>
+
 
         </div>
         </div>
@@ -62,17 +73,17 @@ const Home = () => {
       </div>
       <div>
         <div className='flex flex-wrap justify-around gap-x-4 mt-8'>
-        <div className='md:w-1/4 sm:w-1/2 w-4/6 cursor-pointer shadow-xl p-4 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300'>
+        <div className='md:w-1/4 sm:w-1/2 w-4/6 cursor-pointer shadow-xl p-4 '>
         <img src="./images/Home/Group 23.png" className='m-auto' alt="" />
         <h1 className='text-center text-xl font-bold'>3D Coverage</h1>
         <p>3 dimensional coverage of all questions related to a perticular topic</p>
         </div>
-        <div  className='md:w-1/4 sm:w-1/2 w-4/6  cursor-pointer shadow-xl p-4 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300'>
+        <div  className='md:w-1/4 sm:w-1/2 w-4/6  cursor-pointer shadow-xl p-4'>
         <img src="./images/Home/Group 24.png" className='m-auto' alt="" />
         <h1 className='text-center text-xl font-bold'>Plenty of subjects</h1>
         <p>3 dimensional coverage of all questions related to a perticular topic</p>
         </div>
-        <div  className='md:w-1/4 sm:w-1/2 w-4/6   cursor-pointer shadow-xl p-4 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300'>
+        <div  className='md:w-1/4 sm:w-1/2 w-4/6   cursor-pointer shadow-xl p-4 '>
         <img src="./images/Home/Group 25.png" className='m-auto' alt="" />
         <h1 className='text-center text-xl font-bold'>Detailed solutions</h1>
         <p className='mb-2'>3 dimensional coverage of all questions related to a perticular topic</p>
@@ -80,9 +91,13 @@ const Home = () => {
         </div>
         <div>
           <img src="./images/Home/two.png" className='w-1/5 float-right' alt="" />
+          <h2>Hello world</h2>
         </div>
       </div>
     </div>
+
+
+    
 </div>
 
 
