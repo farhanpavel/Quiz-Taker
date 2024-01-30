@@ -159,7 +159,7 @@ const Home = () => {
 <span className='text-blue-600'>learning</span> journey</p>
     <div className='flex flex-wrap justify-around'>
       <div className='md:w-1/4 sm:1/2'>
-      <div>
+      <div >
       <img src="./images/Home/Group 13.png" alt="" />
       <h1>Hello word</h1>
       <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia eveniet eius veritatis doloremque veniam sunt nesciunt sit sed excepturi nemo.</p>
@@ -170,7 +170,7 @@ const Home = () => {
       <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia eveniet eius veritatis doloremque veniam sunt nesciunt sit sed excepturi nemo.</p>
       </div>
       </div>
-      <div className='w-1/4'>
+      <div className=' md:w-1/4 sm:1/2'>
       <div>
       <img src="./images/Home/Group 14.png" alt="" />
       <h1>Hello word</h1>
@@ -187,7 +187,7 @@ const Home = () => {
       <div>
     <img src="./" alt="" />
       </div>
-      <div className='w-1/4 ms-10 mt-8 '>
+      <div className='w-1/4 ms-10 mt-8 invisible sm:visible'>
       <div><img className='w-24 relative right-20' src="./images/Home/Group 26.png" alt="" /></div>
       <div><img className='w-24  relative left-20' src="./images/Home/Group 26.png" alt="" /></div>
       <div><img className='w-24  relative right-20' src="./images/Home/Group 26.png" alt="" /></div>
@@ -198,7 +198,24 @@ const Home = () => {
     
     </div>
 
+    <div className='md:flex md:flex-wrap md:flex-row justify-between p-5 shadow-lg font-roboto font-bold '>
+      <div className='flex flex-wrap gap-x-3'>
+      
+       <img className='w-9' src="./images/Home/Q.png" alt="" />
+        <h1 className='text-2xl font-extralight'>Quizzy</h1>
+       </div>
+      <div>
+      </div>   
+      <div className='mt-4 md:mt-0'>
+      <ul className='md:flex md:flex-wrap md:space-y-0 space-y-3 gap-x-10 text-gray-600 text-sm '>
+        <li className=' p-1/2'><img className='w-9 relative right-20' src="/public/images/Home/Group 22.png" alt="" /></li>
+        <li  className='p-1/2'><img className='w-9 relative right-20' src="/public/images/Home/Layer 2.png" alt="" /></li>
+        <li  className='p-1/2'><img className='w-9 relative right-20' src="/public/images/Home/Layer 2 (1).png" alt="" /></li>
+        <li  className='p-1/2'><img className='w-9 relative right-20' src="/public/images/Home/Vector.png" alt="" /></li>
 
+      </ul>
+      </div>
+     </div>
 </div>
 
 
@@ -207,3 +224,8 @@ const Home = () => {
 };
 
 export default Home;
+
+
+{/* <li><img className='w-24  relative left-20' src="./images/Home/Group 26.png" alt="" /></li>
+<li><img className='w-24  relative left-20' src="./images/Home/Group 26.png" alt="" /></li>
+<li><img className='w-24  relative left-20' src="./images/Home/Group 26.png" alt="" /></li> */}
