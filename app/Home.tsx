@@ -198,6 +198,7 @@ const Home = () => {
     </div>
     
     <h1>Hello</h1>
+    <h2>Hellosad</h2>
     </div>
       
 </div>
