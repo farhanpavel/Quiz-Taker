@@ -30,7 +30,7 @@ const Home = () => {
     <div className='container mx-auto'>
       <div className='flex flex-wrap justify-around'>
         <div className='m-auto '>
-        <h1 className='lg:text-4xl mt-3 text-lg sm:text-2xl md:text-3xl w-3/4 bg-clip-text  text-transparent bg-gradient-to-r from-[#0178ff] to-[#49CDFF]'>Learn new concepts each minute</h1>
+        <h1 className='font-semibold lg:text-4xl mt-3 text-lg sm:text-2xl md:text-3xl w-3/4 bg-clip-text  text-transparent bg-gradient-to-r from-[#0178ff] to-[#49CDFF]'>Learn new concepts each minute</h1>
         <div className='border-l-4 border-[#01FF88] '>
         <p className='mt-5 text-md  md:text-md  mx-2 text-[#828282]'>We help you prepare for exams and quizes </p>
         
@@ -92,13 +92,13 @@ const Home = () => {
         </div>
         <div>
           <img src="./images/Home/two.png" className='w-1/5 float-right' alt="" />
-          <h2>Hello world</h2>
+          
         </div>
       </div>
     </div>
 
-
-    <div className="grid grid-cols-2 gap-6">
+<div className='container mx-auto'>
+<div className="grid grid-cols-2 gap-6 mt-56 ">
                 <div className="grid grid-cols-2 w-3/4 mx-4 gap-6">
                 {/* <p className='text-3xl'>In social Science is defined as the capacity of individuals to act independtly and to influence (such as social class,religion,grnder,ethnicity,ability,custom,etc.) that derermine or limit.</p> */}
               
@@ -144,63 +144,62 @@ const Home = () => {
             
                 <div className=''>
                     <div>
-                        <p className='text-3xl'> About Us </p> <br />
-                        <p className='text-6xl font-bold'>A House Of Creative & Intelligent</p> <br/>
-                        <p className='text-3xl'>In social Science is defined as the capacity of individuals to act independtly and to influence (such as social class,religion,grnder,ethnicity,ability,custom,etc.) that derermine or limit.</p>
+                       
+                        <p className='md:text-6xl font-bold '>A House Of Creative & Intelligent</p> <br/>
+                        <p className='md:text-xl'>In social Science is defined as the capacity of individuals to act independtly and to influence  that derermine or limit.</p>
                     </div>
                     <br/>
-                    <div className="flex flex-wrap">
-                        <button type="button" className="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700">Our Team</button>
-                        <button type="button" className="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">Learn more</button>
-                    </div>
+                  
                 </div>
   
               </div>
-    <br />
-          <p className='text-4xl'>Let's checkout your <br />
-<span className='text-blue-600'>learning</span> journey</p>
-    <div  className="flex flex-row gap-x-10">
-  <div className="basis-1/3"><div className="flex flex-col ...">
-  <div className='w-1/2'>
-    <img src="/public/images/Home/Group 13.png" alt="" />
-    <p className='text-2xl font-semibold'>Choose your subject</p>
-    <p>Choose your favourite subject
-from the vast selection of subjects
-and continnue your journey</p>
-
-  </div>
-  <div>
-  <img  src="/public/images/Home/Group 15.png" alt="" />
-    <p className='text-2xl font-semibold'>Increasing difficulty</p>
-    <p>Difficulty of questions will increase for the upcoming question irrespective of result of a previous question</p>
-  </div>
-</div></div>
-  <div className="basis-1/3"><div className="flex flex-col ...">
-  <div>
-  <img src="/public/images/Home/Group 14.png" alt="" />
-    <p className='text-2xl font-semibold'>Select the difficulty</p>
-    <p>Select difficulty of your choice
-and get the difficulty of questions
-according to your difficulty</p>
-  </div>
-  <div><img src="/public/images/Home/Group 16.png" alt="" />
-    <p className='text-2xl font-semibold'>Detailed overview of scores</p>
-    <p>Get the detailed overview of
-your question answer session
-and tips on how you can improve</p></div>
-</div></div>
-  <div className="basis-1/3"><div className="flex flex-col relative">
-  <div >
-  <img className='w-24' src="/public/images/Home/Group 26.png" alt="" />
-  </div>
-  <div><img className='w-24' src="/public/images/Home/Group 27.png" alt="" /></div>
-  <div><img className='w-24' src="/public/images/Home/Group 28.png" alt="" /></div>
-  <div ><img className='w-24' src="/public/images/Home/Group 29.png" alt="" /></div>
-</div></div>
+    
 </div>
-    <h1>Hello</h1>
-
-
+    <br />
+    <div className='mt-32 '>
+    <p className='text-4xl text-center mb-16'>Let's checkout your <br />
+<span className='text-blue-600'>learning</span> journey</p>
+    <div className='flex flex-wrap justify-around'>
+      <div className='md:w-1/4 sm:1/2'>
+      <div>
+      <img src="./images/Home/Group 13.png" alt="" />
+      <h1>Hello word</h1>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia eveniet eius veritatis doloremque veniam sunt nesciunt sit sed excepturi nemo.</p>
+      </div>
+      <div>
+      <img src="./images/Home/Group 15.png" alt="" />
+      <h1>Hello word</h1>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia eveniet eius veritatis doloremque veniam sunt nesciunt sit sed excepturi nemo.</p>
+      </div>
+      </div>
+      <div className='w-1/4'>
+      <div>
+      <img src="./images/Home/Group 14.png" alt="" />
+      <h1>Hello word</h1>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia eveniet eius veritatis doloremque veniam sunt nesciunt sit sed excepturi nemo.</p>
+      </div>
+      <div>
+      <img src="./images/Home/Group 16.png" alt="" />
+      <h1>Hello word</h1>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia eveniet eius veritatis doloremque veniam sunt nesciunt sit sed excepturi nemo.</p>
+      </div>
+      
+      </div>
+     
+      <div>
+    <img src="./" alt="" />
+      </div>
+      <div className='w-1/4 ms-10 mt-8 '>
+      <div><img className='w-24 relative right-20' src="./images/Home/Group 26.png" alt="" /></div>
+      <div><img className='w-24  relative left-20' src="./images/Home/Group 26.png" alt="" /></div>
+      <div><img className='w-24  relative right-20' src="./images/Home/Group 26.png" alt="" /></div>
+      <div><img className='w-24  relative left-20' src="./images/Home/Group 26.png" alt="" /></div>
+      </div>
+    </div>
+    
+    
+    </div>
+      
 </div>
 
 
