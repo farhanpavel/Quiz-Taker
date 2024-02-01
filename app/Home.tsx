@@ -225,7 +225,3 @@ const Home = () => {
 
 export default Home;
 
-
-{/* <li><img className='w-24  relative left-20' src="./images/Home/Group 26.png" alt="" /></li>
-<li><img className='w-24  relative left-20' src="./images/Home/Group 26.png" alt="" /></li>
-<li><img className='w-24  relative left-20' src="./images/Home/Group 26.png" alt="" /></li> */}
