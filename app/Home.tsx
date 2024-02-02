@@ -1,8 +1,9 @@
-import React from 'react';
-
-const Home = () => {
+import React from 'react'
+import { Link } from 'react-router-dom'
+export default function Home() {
   return (
     <div>
+        <div>
      
      <div className='md:flex md:flex-wrap md:flex-row justify-between p-5 shadow-lg font-roboto font-bold '>
       <div className='flex flex-wrap items-center gap-x-3'>
@@ -41,19 +42,16 @@ const Home = () => {
         </div>
         <div className='mt-4 space-x-4 lg:space-x-2'>
         <button
-  className="border-2 bg-gradient-to-r rounded-full from-blue-500 to-blue-300 text-white lg:px-4 lg:py-2 py-1 px-3 focus:outline-none transform transition-transform hover:scale-105"
->
-  <a href="#" className="text-white p-2 font-semibold">
-    Sign In
-  </a>
+  className="border-2 bg-gradient-to-r rounded-full from-blue-500 to-blue-300 text-white lg:px-4 lg:py-2 py-1 px-3 focus:outline-none transform transition-transform hover:scale-105">
+    <Link to="/signin"  className="text-white p-2 font-semibold">Sign in</Link>
+ 
 </button>
 
 <button
   className="border-2 bg-gradient-to-r from-blue-500 to-blue-300 text-white lg:px-4 lg:py-2 py-1 px-3 rounded-full focus:outline-none transform transition-transform hover:scale-105"
 >
-  <a href="#" className="text-white p-2 font-semibold">
-    Sign Up
-  </a>
+<Link to="/signup"  className="text-white p-2 font-semibold">Sign up</Link>
+ 
 </button>
 
 
@@ -216,9 +214,6 @@ const Home = () => {
 </div>
 
 
-    
-  );
-};
-
-export default Home;
-
+    </div>
+  )
+}
