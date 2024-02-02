@@ -1,9 +1,11 @@
 import React from 'react'
-
+import Header from "../app/header.tsx"
+import Footer from "../app/footer.tsx"
 export default function Signin() {
   return (
     <div>
-      <div className='shadow-lg flex  justify-between w-[80%] gap-x-16 items-center m-auto mt-10 p-5'>
+      <Header/>
+      <div className='shadow-lg flex  justify-between w-[80%] gap-x-16 items-center m-auto mt-10 p-5 mb-16'>
         <div >
           <div className='flex flex-wrap items-center gap-x-2 place-content-center mb-5'>
           <img className='w-20' src="./images/Signin/Q.png" alt="" />
@@ -38,6 +40,7 @@ export default function Signin() {
       <img src="./images/Signin/Signin.jpg" alt="" />
         </div>
       </div>
+      <Footer/>
     </div>
   )
 }
