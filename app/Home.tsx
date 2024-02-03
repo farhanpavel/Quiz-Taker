@@ -96,7 +96,7 @@ export default function Home() {
                       <div>
                         <img
                           className="h-auto max-w-full rounded-lg object-cover object-center"
-                          src="https://images.unsplash.com/photo-1552960562-daf630e9278b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+                          src="/public/images/Home/konok.jpg"
                           alt="gallery-photo"
                         />
                       </div>
