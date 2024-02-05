@@ -2,6 +2,7 @@ import React from "react"
 import Home from "../app/Home.tsx"
 import Signin from "../app/Signin.tsx"
 import Signup from "../app/Signup.tsx"
+import Quizbody from "../app/Quizbody.tsx"
 import {
   Routes,
   Route,
@@ -16,6 +17,7 @@ function App() {
     <Route path="/*" element={<Home/>}/>
     <Route path="/signin" element={<Signin/>}/>
     <Route path="/signup" element={<Signup/>}/>
+    <Route path="/quiztaker" element={<Quizbody/>}/>
     </Routes>
     </BrowserRouter>
  </div>

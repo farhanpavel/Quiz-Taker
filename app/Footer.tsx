@@ -3,7 +3,7 @@ import React from 'react'
 export default function Footer() {
   return (
     <div>
-       <div className='sm:flex sm:flex-wrap p-5 sm:justify-between  bg-[#fafafa]'>
+       <div className='sm:flex sm:flex-wrap p-5 sm:justify-between  bg-[#fafafa] mt-5'>
       <div className='flex flex-wrap gap-1 items-center place-content-center'>
       <img className='w-9' src="./images/Home/Q.png" alt="" />
       <h1 className='text-2xl font-bold font-roboto bg-clip-text text-transparent bg-gradient-to-r from-indigo-400 to-cyan-400'>Quizzy</h1>
