@@ -6,7 +6,7 @@ export default function Signup() {
   return (
     <div>
       <Header/>
-     <div className='shadow-lg flex  justify-between w-[80%] gap-x-16 items-center m-auto mt-10 p-5'>
+     <div className='shadow-lg flex  place-content-center sm:justify-between w-[80%] gap-x-16 items-center m-auto mt-10 p-5 mb-5'>
         <div >
           <div className='flex flex-wrap items-center gap-x-2 place-content-center mb-5'>
           <img className='w-20' src="./images/Signin/Q.png" alt="" />
@@ -38,7 +38,7 @@ export default function Signup() {
              </div>
           </div>
         </div>
-        <div  className='w-1/2'>
+        <div  className=' w-1/2 hidden sm:block'>
       <img src="/public/images/Signin/SingUp.jpg" alt="" />
         </div>
       </div>
