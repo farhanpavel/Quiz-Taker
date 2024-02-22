@@ -69,7 +69,7 @@ export default function Home() {
       </div>
     </div>
 
-    <div className='container mx-auto'>
+    <div className=' container mx-auto'>
 <div className="grid grid-cols-2 gap-6 mt-56 ">
                 <div className="grid grid-cols-2 w-3/4 mx-4 gap-6">
                 {/* <p className='text-3xl'>In social Science is defined as the capacity of individuals to act independtly and to influence (such as social class,religion,grnder,ethnicity,ability,custom,etc.) that derermine or limit.</p> */}
